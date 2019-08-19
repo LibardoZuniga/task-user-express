@@ -1,0 +1,32 @@
+{
+    "dev": {
+        "app": {
+            "port": 3000
+        },
+        "db": {
+            "database": "user-express",
+            "username": "",
+            "password": "",
+            "params": {
+                "dialect": "sqlite",
+                "storage": "user-express.sqlite",
+                "operatorsAliases": false
+            }
+        }
+    },
+    "prod": {
+        "app": {
+            "port": 3000
+        },
+        "db": {
+            "database": "user-express",
+            "username": "",
+            "password": "",
+            "params": {
+                "dialect": "sqlite",
+                "storage": "user-express.sqlite",
+                "operatorsAliases": false
+            }
+        }
+    }
+}
